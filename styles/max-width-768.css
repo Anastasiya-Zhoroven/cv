@@ -1,0 +1,138 @@
+@media only screen and (max-width: 768px) {
+
+    .header-visible .nav {
+        display: none;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .header-visible .burger-menu-item {
+        border-color: #999999;
+    }
+
+    header.side-bar-visible {
+        background-color: transparent;
+    }
+
+    .side-bar-visible .nav {
+        display: flex;
+        position: fixed;
+        right: 0;
+        height: 100%;
+        background-color: #ffffffb8;
+        top: 0;
+        z-index: 1;
+        animation: fade-in 0.5s ease-in-out;
+    }
+
+    .side-bar-visible .nav-list {
+        flex-direction: column;
+        margin-top: 100px;
+        padding-right: 30px;
+    }
+
+    .side-bar-visible .burger-menu {
+        transform: rotate(90deg);
+    }
+
+    .side-bar-visible .burger-menu-item {
+        border-color: #999999;
+    }
+
+    .name {
+        font-size: 80px;
+    }
+
+    .container-section-about {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .foto {
+        width: 350px;
+        height: 400px;
+    }
+
+    .title-text {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .section-about-text {
+        align-items: center;
+        padding: 0 20px;
+    }
+
+    .section-skills-holder {
+        background-size: 40%;
+        gap: 200px;
+    }
+
+    .skill-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .skills-list {
+        font-size: 10px;
+    }
+
+    .timeline-year {
+        font-size: 25px;
+    }
+
+    .content {
+        padding: 15px 20px;
+    }
+
+    .timeline-text {
+        font-size: 15px;
+    }
+
+    .fact-box:nth-child(n+3) {
+        display: none;
+    }
+
+    .slider-dot:nth-child(n+3) {
+        display: block;
+    }
+
+    .slider-dot:nth-child(n+4) {
+        display: none;
+    }
+
+    .contact-box {
+        gap: 40px;
+    }
+
+    .info-box {
+        font-size: 10px;
+        gap: 20px;
+    }
+
+    .info-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .input-container {
+        max-width: 350px;
+    }
+
+    input::placeholder {
+        font-size: 18px;
+    }
+
+    textarea::placeholder {
+        font-size: 18px;
+    }
+
+    .send-btn {
+        font-size: 20px;
+        height: 45px;
+        width: 190px;
+    }
+
+}

@@ -16,7 +16,6 @@
 }
 
 .skills-list h4 {
-  /* background-image: linear-gradient(to left, violet, indigo); */
   color: indigo;
   position: absolute;
   transform: translate(-50%, -50%);
@@ -27,62 +26,62 @@
   white-space: nowrap;
 }
 
-.ajax {
+.skill-creativity {
   --center: 10%;
   --radius: 10%;
   --rotationTime: 3s;
 }
 
-.json,
-.django,
-.react-js {
+.skill-time-management,
+.skill-problem-solving,
+.skill-motivation {
   --center: 30%;
   --radius: 30%;
   --rotationTime: 5s;
 }
 
-.django {
+.skill-problem-solving {
   --startDelay: -1.5s;
 }
 
-.react-js {
+.skill-motivation {
   --startDelay: -3.5s;
 }
 
-.ruby {
+.skill-diligence {
   --startDelay: -1.6s;
 }
 
-.ruby-on-rails {
+.skill-critical-thinking {
   --startDelay: -3.2s;
 }
 
-.git {
+.skill-fast-learning {
   --startDelay: -4.8s;
 }
 
-.python {
+.skill-critical-thinking {
   --startDelay: -6.4s;
 }
 
-.html5,
-.css3,
-.jquery {
+.skill-team-player,
+.skill-flexibility,
+.skill-commitment {
   --center: 70%;
   --radius: 30%;
   --rotationTime: 5s;
 }
 
-.jquery {
+.skill-commitment {
   --startDelay: -1.5s;
 }
 
-.css3 {
+.skill-flexibility {
   --startDelay: -3.5s;
 }
 
 
-.npm {
+.skill-integrity {
   --center: 90%;
   --radius: 10%;
   --rotationTime: 3s;
