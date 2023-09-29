@@ -1,4 +1,4 @@
-const observer = new IntersectionObserver(entries => {
+const callback = entries => {
     entries.forEach(entry => {
         const bar = entry.target.querySelector('.bar');
 
@@ -9,7 +9,9 @@ const observer = new IntersectionObserver(entries => {
 
         bar.style.width = "0";
     });
-});
+};
+
+const observer = new IntersectionObserver(callback);
 
 document.querySelectorAll('.skill-bar-container').forEach(element => {
     observer.observe(element);

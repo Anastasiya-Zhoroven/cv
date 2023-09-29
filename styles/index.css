@@ -35,7 +35,7 @@ header {
 
 
 .container {
-    max-width: 1280px;
+    /* max-width: 1280px; */
     margin: auto;
 }
 
@@ -383,12 +383,12 @@ header {
     padding: 10px;
 }
 
-.language-english {
-    border-right: 10px solid #4e284f;
-}
-
 .language-german {
     border-left: 10px solid #4e284f;
+}
+
+.language-polish {
+    border-right: 10px solid #4e284f;
 }
 
 .language-name {

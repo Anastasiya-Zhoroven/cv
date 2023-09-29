@@ -19,8 +19,8 @@
   color: indigo;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: var(--center);
-  left: var(--center);
+  /* top: var(--center);
+  left: var(--center); */
   animation: rotate var(--rotationTime) linear infinite;
   animation-delay: var(--startDelay);
   white-space: nowrap;
@@ -99,14 +99,16 @@
   }
 
   25% {
-    opacity: 0;
-    top: calc(var(--center) - var(--radius) / var(--sqrt-of-2));
+    opacity: 0.5;
+    /* left: 100%;
+    top: 0%; */
+    top:  calc(var(--center) - var(--radius) / var(--sqrt-of-2));
     left: calc(var(--center) + var(--radius) / var(--sqrt-of-2));
   }
 
-  30% {
+  /* 30% {
     opacity: 0;
-  }
+  } */
 
   50% {
     opacity: 0;
@@ -115,12 +117,14 @@
   }
 
   75% {
-    opacity: 0;
+    opacity: 0.5;
+    left: 0%;
+    top: 100%;
     top: calc(var(--center) + var(--radius) / var(--sqrt-of-2));
     left: calc(var(--center) - var(--radius) / var(--sqrt-of-2));
   }
 
-  80% {
+  /* 80% {
     opacity: 0;
-  }
+  } */
 }
